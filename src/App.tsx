@@ -1,9 +1,11 @@
 import './App.css'
+import { LanguageSwitcher } from "./components/LanguageSwitcher/LanguageSwitcher.tsx";
 
 function App() {
 
   return (
         <div className="container">
+            <LanguageSwitcher/>
           <div className="logo">🔧</div>
 
           <h1>Сайт временно недоступен</h1>
