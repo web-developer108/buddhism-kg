@@ -5,5 +5,19 @@
     "text2": "For questions regarding the Buddhist center in Bishkek, please contact us by email at ",
     "text3": "We are working to restore the website and will be back to normal operation soon.",
     "footer": "Thank you for your understanding."
+  },
+  "cards": {
+    "karmapa": {
+      "title": "Karmapa XVII",
+      "subtitle": "Official website"
+    },
+    "lamaOle": {
+      "title": "Lama Ole Nydahl",
+      "subtitle": "Official website"
+    },
+    "moscow": {
+      "title": "Moscow",
+      "subtitle": "Buddhist center"
+    }
   }
 }

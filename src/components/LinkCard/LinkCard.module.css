@@ -1,0 +1,85 @@
+.card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    width: 280px;
+    height: 170px;
+
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+
+    background-color: #dddddd;
+}
+
+.image {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.05) 0%,
+            rgba(0, 0, 0, 0.55) 100%
+    );
+}
+
+.content {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 18px;
+
+    z-index: 1;
+}
+
+.content h3 {
+    margin: 0 0 4px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.content p {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.card:hover .image {
+    transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
+    .card {
+        min-height: 150px;
+    }
+
+    .content {
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 13px;
+    }
+}
