@@ -2,14 +2,12 @@
     position: relative;
     display: block;
     overflow: hidden;
-
-    width: 280px;
-    height: 170px;
+    width: 100%;
+    aspect-ratio: 280 / 170;
 
     border-radius: 4px;
     text-decoration: none;
     color: #ffffff;
-
     background-color: #dddddd;
 }
 
