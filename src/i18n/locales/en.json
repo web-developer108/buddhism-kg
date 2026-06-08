@@ -1,4 +1,9 @@
 {
-  "siteTitle": "Buddhism.kg",
-  "maintenance": "Сайт временно недоступен"
+  "maintenance": {
+    "title": "The website is temporarily unavailable",
+    "text1": "Technical maintenance and service setup are currently in progress.",
+    "text2": "For questions regarding the Buddhist center in Bishkek, please contact us by email at ",
+    "text3": "We are working to restore the website and will be back to normal operation soon.",
+    "footer": "Thank you for your understanding."
+  }
 }
