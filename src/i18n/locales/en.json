@@ -48,5 +48,16 @@
   "contacts": {
     "title": "Contacts",
     "emailLabel": "Email"
+  },
+  "footer": {
+    "copyright": "© 2009–{{year}}",
+    "privacy": "Privacy Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "text1": "The buddhism.kg website does not collect or process visitors’ personal data through forms, registration or cookies.",
+    "text2": "When contacting us by email, the user voluntarily provides their email address in order to receive a response.",
+    "text3": "The email address is used only for communication with the user and is not shared with third parties.",
+    "close": "Close"
   }
 }

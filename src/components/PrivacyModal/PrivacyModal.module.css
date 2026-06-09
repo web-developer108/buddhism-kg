@@ -1,0 +1,97 @@
+.backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.modal {
+    position: relative;
+
+
+    width: 100%;
+    max-width: 640px;
+    max-height: calc(100vh - 48px);
+
+    padding: 40px;
+    overflow-y: auto;
+
+    background: #ffffff;
+    color: #111111;
+}
+
+.closeButton {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+
+    border: none;
+    background: transparent;
+
+    color: #999999;
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    color: #bd2639;
+}
+
+.title {
+    margin: 0 0 24px;
+
+    font-size: 28px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.content p {
+    margin: 0 0 16px;
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
+
+.actionButton {
+    margin-top: 28px;
+    padding: 10px 20px;
+
+    border: 1px solid #bd2639;
+    background: #bd2639;
+
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.actionButton:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 500px) {
+    .backdrop {
+        align-items: flex-end;
+        padding: 0;
+    }
+
+    .modal {
+        max-height: 90vh;
+        padding: 36px 20px 24px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
