@@ -14,10 +14,11 @@ export const LinkCard = ({ image, title, subtitle, href }: LinkCardProps) => {
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`${title}. ${subtitle}`}
         >
             <img src={image} alt={title} className={styles.image} />
 
-            <div className={styles.overlay} />
+            <div className={styles.overlay} aria-hidden="true"  />
 
             <div className={styles.content}>
                 <h3>{title}</h3>

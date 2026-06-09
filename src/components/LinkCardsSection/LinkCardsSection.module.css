@@ -10,7 +10,7 @@
 
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 24px;
+    gap: 36px;
 }
 
 @media (max-width: 900px) {
@@ -21,7 +21,7 @@
     .grid > :last-child:nth-child(odd) {
         grid-column: 1 / -1;
         justify-self: center;
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 36px) / 2);
     }
 }
 

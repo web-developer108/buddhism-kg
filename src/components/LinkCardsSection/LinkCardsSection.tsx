@@ -1,11 +1,8 @@
 import { useTranslation } from 'react-i18next';
-
 import { LinkCard } from '../LinkCard/LinkCard';
-
 import karmapaImage from '../../assets/cards/karmapa.webp';
 import lamaOleImage from '../../assets/cards/lama-ole.webp';
 import moscowImage from '../../assets/cards/moscow.webp';
-
 import styles from './LinkCardsSection.module.css';
 
 const cards = [
