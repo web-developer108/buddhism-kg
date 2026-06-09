@@ -44,5 +44,9 @@
       "sun": "Sun"
     },
     "notice": "If you plan to visit the Buddhist center for the first time, please contact us at <email>bishkek@buddhism.kg</email> and arrange a meeting one hour before the meditation begins."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "emailLabel": "Email"
   }
 }
