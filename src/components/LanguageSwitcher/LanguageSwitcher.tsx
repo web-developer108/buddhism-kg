@@ -26,7 +26,7 @@ export const LanguageSwitcher = () => {
             </span>
 
             <span className={styles.mobile}>
-                {isRussian ? 'EN' : 'RU'}
+                {isRussian ? 'EN' : 'РУ'}
             </span>
         </button>
     );

@@ -30,5 +30,19 @@
     "paragraph6":  "All meditations and lectures for beginners are free. You won't need any special clothing, a mat, or a meditation cushion.",
     "paragraph7":  "The Bishkek center brings together people interested in meditation practice, Buddhist philosophy, and the Karma Kagyu tradition. If you're planning to visit the Buddhist center for the first time, please email us at <email> bishkek@buddhism.kg</email> and arrange a meeting one hour before the meditation session.",
     "readMore": "Read more"
+  },
+  "schedule": {
+    "title": "Center schedule",
+    "event": "Meditation on the 16th Karmapa",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "notice": "If you plan to visit the Buddhist center for the first time, please contact us at <email>bishkek@buddhism.kg</email> and arrange a meeting one hour before the meditation begins."
   }
 }
