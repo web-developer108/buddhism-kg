@@ -51,7 +51,20 @@ export const BishkekCenterSection = () => {
                     />
                 </p>
 
-                <p>{t('bishkekCenter.paragraph2')}</p>
+                <p>
+                    <Trans
+                        i18nKey="bishkekCenter.paragraph2"
+                        components={{
+                            lineage: (
+                                <a
+                                    href="https://www.buddhism.ru/o-buddizme/buddizm-v-sovremennom-mire/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                />
+                            ),
+                        }}
+                    />
+                </p>
 
                 {!isExpanded && (
                     <button
@@ -67,7 +80,20 @@ export const BishkekCenterSection = () => {
 
                 {isExpanded && (
                     <>
-                        <p>{t('bishkekCenter.paragraph3')}</p>
+                        <p>
+                            <Trans
+                                i18nKey="bishkekCenter.paragraph3"
+                                components={{
+                                    buddha: (
+                                        <a
+                                            href="https://www.buddhism.ru/o-buddizme/zhizn-i-uchenie-buddy/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        />
+                                    ),
+                                }}
+                            />
+                        </p>
                         <p>{t('bishkekCenter.paragraph4')}</p>
                         <p>{t('bishkekCenter.paragraph5')}</p>
                         <p>{t('bishkekCenter.paragraph6')}</p>
