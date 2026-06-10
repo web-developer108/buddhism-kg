@@ -40,6 +40,6 @@
 
     .container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: anchor-center;
     }
 }

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
 import { PrivacyModal } from '../PrivacyModal/PrivacyModal';
 import styles from './Footer.module.css';
 
