@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { LinkCard } from '../LinkCard/LinkCard';
 import karmapaImage from '../../assets/cards/karmapa.webp';
 import lamaOleImage from '../../assets/cards/lama-ole.webp';
-import moscowImage from '../../assets/cards/moscow.webp';
+import europeImage from '../../assets/cards/europe.webp';
 import styles from './LinkCardsSection.module.css';
 
 const cards = [
@@ -17,9 +17,9 @@ const cards = [
         href: 'https://www.lama-ole-nydahl.org/',
     },
     {
-        id: 'moscow',
-        image: moscowImage,
-        href: 'https://www.buddhism.ru/',
+        id: 'europe',
+        image: europeImage,
+        href: 'https://europe-center.org',
     },
 ] as const;
 
